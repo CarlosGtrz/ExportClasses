@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Clarion 2.1.0.2447
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "ExternalClasses", "ExternalClasses.cwproj", "{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF} = {49DFCA1D-884B-46E8-8BED-31682D5C6EEF}
+	EndProjectSection
+EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "Classes", "Classes.cwproj", "{49DFCA1D-884B-46E8-8BED-31682D5C6EEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}.Debug|Win32.Build.0 = Debug|Win32
+		{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}.Release|Win32.Build.0 = Release|Win32
+		{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}.Release|Win32.ActiveCfg = Release|Win32
+		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF}.Debug|Win32.Build.0 = Debug|Win32
+		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF}.Release|Win32.Build.0 = Release|Win32
+		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal
