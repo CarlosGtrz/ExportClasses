@@ -4,9 +4,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExternalClasses</RootNamespace>
-    <AssemblyName>ExternalClasses</AssemblyName>
-    <OutputName>ExternalClasses</OutputName>
+    <RootNamespace>ExportClasses</RootNamespace>
+    <AssemblyName>ExportClasses</AssemblyName>
+    <OutputName>ExportClasses</OutputName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>True</DebugSymbols>
@@ -23,7 +23,7 @@
     <check_index>False</check_index>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ExternalClasses.clw" />
+    <Compile Include="ExportClasses.clw" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Classes.lib" />

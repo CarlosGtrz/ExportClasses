@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 # Clarion 2.1.0.2447
-Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "ExternalClasses", "ExternalClasses.cwproj", "{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}"
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "ExportClasses", "ExportClasses.cwproj", "{B5B49301-AD72-4D48-B7A1-F8DBDE818C84}"
 	ProjectSection(ProjectDependencies) = postProject
 		{49DFCA1D-884B-46E8-8BED-31682D5C6EEF} = {49DFCA1D-884B-46E8-8BED-31682D5C6EEF}
 	EndProjectSection
